@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang = "en">
     <head>
         <title>New York Times Search</title>
@@ -19,12 +18,12 @@
 
     <div class="card">
             <div class="card-header">
-                    Search Parameters
+                    <i class="fas fa-book"></i> Search Parameters
             </div>
     <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">Search Term:</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1">
+          <input type="text" class="form-control" id="searchterm"">
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
@@ -44,11 +43,17 @@
         </div>
        </form>
        <div class="row">
-       <div class="col-md-1" id="search"><button><i class="fas fa-search"></i>Search</button></div>
-       <div class="col-md-1" id="clear">Clear Results</div>
+       <div class="col-md-1" id="search"><button type="button" class="btn btn-light"><i class="fas fa-search"></i> Search</button></div>
+       <div class="col-md-2" id="clear"><button type="button" class="btn btn-light"><i class="fas fa-trash"></i> Clear Results</button></div>
        </div>
        </div>
 
+
+       <div class="card">
+            <div class="card-header">
+                    <i class="fas fa-newspaper"></i> Top Articles
+            </div>
+        </div>
     
 
 
