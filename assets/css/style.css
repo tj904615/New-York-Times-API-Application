@@ -1,0 +1,11 @@
+.card {
+    margin: 20px;
+
+}
+
+.jumbotron{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   }
